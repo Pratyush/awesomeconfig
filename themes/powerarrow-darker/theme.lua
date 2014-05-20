@@ -11,22 +11,27 @@ themes_dir                          = os.getenv("HOME") .. "/.config/awesome/the
 theme.wallpaper                     = themes_dir .. "/wall.jpg"
 
 theme.font                          = "Fantasque Sans Mono 10"
-theme.fg_normal                     = "#DCDCDC"
-theme.fg_focus                      = "#F0DFAF"
-theme.fg_urgent                     = "#CC9393"
-theme.bg_normal                     = "#1A1A1A"
-theme.bg_focus                      = "#313131"
-theme.bg_urgent                     = "#1A1A1A"
+-- {{{ Colors
+theme.fg_normal = "#DCDCCC"
+theme.fg_focus  = "#F0DFAF"
+theme.fg_urgent = "#CC9393"
+theme.bg_normal = "#3F3F3F"
+theme.bg_focus  = "#1E2320"
+theme.bg_urgent = "#3F3F3F"
+-- }}}
+
 theme.border_width                  = "3"
 theme.useless_gap_width             = 10
-theme.border_normal                 = "#111111"
-theme.border_focus                  = "#605f5f"
-theme.border_marked                 = "#CC9393"
-theme.titlebar_bg_focus             = "#FFFFFF"
-theme.titlebar_bg_normal            = "#FFFFFF"
+theme.border_normal = "#3F3F3F"
+theme.border_focus  = "#6F6F6F"
+theme.border_marked = "#CC9393"
+
+theme.titlebar_bg_focus  = "#3F3F3F"
+theme.titlebar_bg_normal = "#3F3F3F"
+
 theme.taglist_fg_focus              = "#DCDCDC"
 theme.tasklist_bg_focus             = "#313131"
-theme.tasklist_fg_focus             = "#87af5f"
+theme.tasklist_fg_focus             = "#CC9393"
 theme.textbox_widget_margin_top     = 1
 theme.notify_fg                     = theme.fg_normal
 theme.notify_bg                     = theme.bg_normal
