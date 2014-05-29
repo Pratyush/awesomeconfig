@@ -8,7 +8,7 @@
 theme                               = {}
 
 themes_dir                          = os.getenv("HOME") .. "/.config/awesome/themes/powerarrow-darker"
-theme.wallpaper                     = themes_dir .. "/wall.jpg"
+theme.wallpaper                     = themes_dir .. "/wall2.png"
 
 theme.font                          = "Fantasque Sans Mono 10"
 -- {{{ Colors
